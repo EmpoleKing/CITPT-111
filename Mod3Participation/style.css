@@ -1,0 +1,17 @@
+footer {
+    color: rgb(255, 255, 255); /* beans */
+    background-color: #a77130;
+    padding: 2em;
+}
+
+article p {
+    color: green;
+}
+
+article h2 {
+    color: blue;
+}
+
+.test {
+    color: rgb(12, 44, 12);
+}

@@ -1,0 +1,74 @@
+/* Color pallete */
+/* Primary - dark teal: #B0E6E6
+Secondary - dark blue: #15495E
+Tertiary - lightest teal #F5F5F5 */
+
+/* General - global styles */
+body    {
+    width: 80%;
+    margin: 0 auto;
+}
+
+a {
+    color: #B0E6E6;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+h1, h2 {
+    color: #15495E;
+}
+
+/* header styles */
+header {
+    background-image: url(../media/flower-headerbg.jpg);
+    background-size: cover;
+    background-color: rgb(35,123,123);
+    padding: 2em 1em;
+    border: 11px solid #15495E;
+    text-align: center;
+}
+
+header h1 {
+    margin-top: 0;
+}
+
+header img {
+    max-width: 75px;
+}
+
+header h4 {
+    border: 2px #fff solid;
+    border-radius: 0 20px;
+    padding: 1em;
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+/* main styles */
+main {
+    background-color: #B0E6E6;
+    padding: 1em 2em;
+}
+
+main img {
+    width: 20%;
+    float: left;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+article {
+    clear: both;
+}
+
+/* footer styles */
+
+.footer {
+    background-color: #15495E;
+    color: #F5F5F5;
+    padding: 1em 2em;
+    text-align: center;
+}
