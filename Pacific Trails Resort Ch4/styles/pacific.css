@@ -1,0 +1,110 @@
+body {
+    background-color: #ffffff;
+    background: linear-gradient(white, lightblue) no-repeat;
+    color: #666666;
+    font-family: Arial, sans-serif;
+}
+
+/* Styles for the wrapper id */
+#wrapper {
+    background-color: #ffffff;
+    min-width: 960px;
+    max-width: 2048px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 100%;
+}
+
+/* Styles for the header element */
+header {
+    background-color: #002171;
+    background-image: url('../img/sunset.jpg');
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 72px;
+    color: #ffffff;
+    font-family: Georgia, serif;
+}
+
+/* Styles for the h1 element */
+h1 {
+    text-align: center;
+    padding-top: 0.5em;
+}
+
+/* Styles for the nav element */
+nav {
+    font-weight: bold;
+    padding: 0.5em 0.5em 0.5em 0;
+    text-align: center;
+}
+
+/* Prevent hyperlinks in the nav area from displaying the default underline */
+nav a {
+    text-decoration: none;
+}
+
+main {
+    padding: 2em;
+    display: block;;
+}
+
+/* Styles for the h2 element */
+h2 {
+    color: #1976D2;
+    font-family: Georgia, serif;
+}
+
+/* Styles for the h3 element */
+h3 {
+    font-family: Georgia, serif;
+}
+
+/* Styles for the dt element */
+dt {
+    color: #002171;
+    font-weight: bold;
+    margin-top: 1em;
+}
+
+/* Styles for a class named .resort */
+.resort {
+    color: #1976D2;
+    font-size: 1.2em;
+}
+
+/* Styles for the footer element */
+footer {
+    font-size: 0.70em;
+    font-style: italic;
+    text-align: center;
+    padding: 1em;
+}
+
+/* Styles for the main element */
+main {
+    padding: 0 2em;
+}
+
+/* Styles for the #coast id */
+#homehero {
+    height: 300px;
+    background: url('../img/coast.jpg') no-repeat center;
+    background-size: 100% 100%;
+}
+
+/* Styles for the #yurt id */
+#yurthero {
+    height: 300px;
+    background: url('../img/yurt.jpg') no-repeat center;
+    background-size: 100% 100%;
+}
+
+/* Styles for the #trail id */
+#trailhero {
+    height: 300px;
+    background: url('../img/trail.jpg') no-repeat center;
+    background-size: 100% 100%;
+}
